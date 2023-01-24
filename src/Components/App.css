@@ -1,0 +1,17 @@
+.navbar button{
+    border-radius: 20px;
+}
+.dropdown-menu[data-bs-popper]{
+    border-radius: 0 0  15px 15px;
+    top: 110%;
+}
+.mensaje{
+    position: absolute;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 150px;
+    padding: 30px;
+    color: whitesmoke;
+    background-color: #d9544f90;
+    border-radius: 200px;
+}

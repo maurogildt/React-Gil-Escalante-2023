@@ -15,7 +15,7 @@ const Navbar = () => {
                         <Secciones />
                     </ul>
                 </div>
-                <CartWidget/>
+                <CartWidget cantCarrito={10}/>
             </div>
         </nav>
     );
