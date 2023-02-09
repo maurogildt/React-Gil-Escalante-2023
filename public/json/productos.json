@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "seccion": "manga",
+        "nombre": "Naruto",
+        "tomo": 1,
+        "precio": 1200,
+        "stock": 10,
+        "img": "naruto-tomo-1.jpg"
+    },
+    {
+        "id": 2,
+        "seccion": "manga",
+        "nombre": "Naruto",
+        "tomo": 5,
+        "precio": 1200,
+        "stock": 11,
+        "img": "naruto-tomo-5.jpg"
+    },
+    {
+        "id": 3,
+        "seccion": "manga",
+        "nombre": "Naruto",
+        "tomo": 56,
+        "precio": 1200,
+        "stock": 2,
+        "img": "naruto-tomo-56.jpg"
+    },
+    {
+        "id": 4,
+        "seccion": "manga",
+        "nombre": "Berserk",
+        "tomo": 1,
+        "precio": 1200,
+        "stock": 10,
+        "img": "berserk-tomo-1.jpg"
+    },
+    {
+        "id": 5,
+        "seccion": "manga",
+        "nombre": "Berserk",
+        "tomo": 10,
+        "precio": 1200,
+        "stock": 8,
+        "img": "berserk-tomo-10.jpg"
+    },
+    {
+        "id": 6,
+        "seccion": "manga",
+        "nombre": "Death Note",
+        "tomo": 1,
+        "precio": 1200,
+        "stock": 12,
+        "img": "death-note-tomo-1.jpg"
+    },
+    {
+        "id": 7,
+        "seccion": "manga",
+        "nombre": "Death Note",
+        "tomo": 2,
+        "precio": 1200,
+        "stock": 12,
+        "img": "death-note-tomo-2.jpg"
+    },
+    {
+        "id": 8,
+        "seccion": "comic",
+        "nombre": "Batman",
+        "tomo": 10,
+        "precio": 1500,
+        "stock": 1,
+        "img": "batman-tomo-10.jpg"
+    },
+    {
+        "id": 9,
+        "seccion": "comic",
+        "nombre": "Spider Man",
+        "tomo": 3,
+        "precio": 1500,
+        "stock": 5,
+        "img": "spider-man-tomo-3.jpg"
+    },
+    {
+        "id": 10,
+        "seccion": "comic",
+        "nombre": "Avengers",
+        "tomo": 5,
+        "precio": 1500,
+        "stock": 6,
+        "img": "avengers-tomo-5.jpg"
+    },
+    {
+        "id": 11,
+        "seccion": "comic",
+        "nombre": "Joker",
+        "tomo": 2,
+        "precio": 1500,
+        "stock": 16,
+        "img": "joker-tomo-2.jpg"
+    },
+    {
+        "id": 12,
+        "seccion": "comic",
+        "nombre": "Superman",
+        "tomo": 1,
+        "precio": 2500,
+        "stock": 6,
+        "img": "superman-tomo-1.jpg"
+    }
+]

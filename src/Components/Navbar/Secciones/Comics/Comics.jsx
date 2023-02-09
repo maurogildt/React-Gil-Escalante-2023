@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from "react-router-dom";
 
 const Comics = () => {
     return (
@@ -7,11 +7,11 @@ const Comics = () => {
                 <button className='btn btn-danger'>Comics</button>
             </a>
             <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Batman</a></li>
-                <li><a className="dropdown-item" href="#">Spider-Man</a></li>
-                <li><a className="dropdown-item" href="#">Avengers</a></li>
-                <li><a className="dropdown-item" href="#">Joker</a></li>
-                <li><a className="dropdown-item" href="#">Superman</a></li>
+                <li><Link className="dropdown-item" to={"/section/comic"}>Batman</Link></li>
+                <li><Link className="dropdown-item" to={"/section/comic"}>Spider-Man</Link></li>
+                <li><Link className="dropdown-item" to={"/section/comic"}>Avengers</Link></li>
+                <li><Link className="dropdown-item" to={"/section/comic"}>Joker</Link></li>
+                <li><Link className="dropdown-item" to={"/section/comic"}>Superman</Link></li>
             </ul>
         </li>
     );

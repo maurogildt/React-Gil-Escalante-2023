@@ -15,3 +15,43 @@
     background-color: #d9544f90;
     border-radius: 200px;
 }
+.card-body{
+    text-align: center;
+}
+.card-title{
+    font-size: 25px;
+}
+.card-img{
+    border-radius: 10px;
+}
+.card-text{
+    margin-top: 10px;
+    background-color: #d9544fb2;
+    border-radius: 50px;
+}
+.btn{
+    border-radius: 10px;
+}
+.cardProducto{
+    width: 300px;
+    margin: 5px;
+    border-radius: 25px;
+}
+.cardProductos{
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.itemDetail {
+    margin-left: 20px;
+}
+.itemDetail .card-text{
+    text-align: center;
+    width: 100px;
+    position: relative;
+    top: 50%;
+}
+.botonItem {
+    position: relative;
+    top: 50%;
+}

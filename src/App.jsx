@@ -1,12 +1,22 @@
 import './App.css';
-import Navbar from './Navbar/Navbar';
-import ItemLIstContainer from './ItemListContainer/ItemListContainer'
+
+import Navbar from './Components/Navbar/Navbar';
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
+import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
+
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 function App() {
   return (
-    <div>
-      <Navbar/>
-      <ItemLIstContainer mensaje={"¡Compra en efectivo 10% de descuento!"}/>
-    </div>
+    <>
+      <BrowserRouter>
+        <Navbar/>
+        <Routes>
+          <Route path='/' element={<ItemListContainer/>}/>
+          <Route path='/product/:id' element={<ItemDetailContainer/>}/>
+          <Route path='/section/:seccion' element={<ItemListContainer/>}/>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Mangas = () => {
     return (
         <li className="nav-item dropdown">
@@ -7,9 +7,9 @@ const Mangas = () => {
                 <button className='btn btn-danger'>Mangas</button>
             </a>
             <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Naruto</a></li>
-                <li><a className="dropdown-item" href="#">Dragon Ball Z</a></li>
-                <li><a className="dropdown-item" href="#">Death Note</a></li>
+                <li><Link className="dropdown-item" to={"/section/manga"}>Naruto</Link></li>
+                <li><Link className="dropdown-item" to={"/section/manga"}>Berserk</Link></li>
+                <li><Link className="dropdown-item" to={"/section/manga"}>Death Note</Link></li>
             </ul>
         </li>
     );
